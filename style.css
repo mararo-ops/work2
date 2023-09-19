@@ -1,0 +1,28 @@
+body {
+    background-image: url(images.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#nav-bar {
+    display: flex; /* This will make your navigation links sit in a row */
+    gap: 15px; /* This will add a gap between each link */
+    align-items: right;
+    text-align: right;
+}
+#nav-bar a {
+    text-decoration: none; /* This will remove the underlines from the links */
+    color: white; /* Set the link color to white (or any other color you prefer) */
+    padding: 8px 12px; /* Add some padding for better appearance */
+    background-color:burlywood;
+    border-radius: 4px; /* Optional: round the corners a bit */
+}
+#nav-bar a:hover {
+    background-color: blue;
+}
+header {
+    align-items: center; /* Horizontally centers the content */
+    justify-content: center; /* Vertically centers the content */
+    padding: 20px;
+    text-align: center;
+}
+
